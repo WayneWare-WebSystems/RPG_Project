@@ -1,0 +1,61 @@
+﻿@model User
+@{
+    Layout = null;
+}
+<style>
+    /* Fontes */
+    @@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    
+    /* Variaveis */
+    :root{
+        --cor-fundo-principal: #1A1A1A;
+        --cor-fundo-header: black;
+        --cor-texto-padrao: #fff;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Open Sans, serif;
+    }
+
+    body{
+        background-color: #1A1A1A;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Id's */
+    #login-container{
+        height: 350px;
+        width: 350px;
+        background-color: #1A1A1A;
+        box-shadow: 0 0 35px black;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    #sign-up{
+        color: var(--cor-texto-padrao);
+        letter-spacing: 2px;
+        font-weight: bold;
+        margin-top: 1.5em;
+        text-transform: uppercase;
+    }
+</style>
+<body>
+    <div id="login-container">
+        <h1 id="sign-up">SIGN UP</h1>
+        <input type="text" id="username-input" value="USERNAME"/>
+        <input type="password" id="password-input" value="PASSWORD" />
+        <button type="button" id="button-enter">ENTER</button>
+    </div>
+</body>
