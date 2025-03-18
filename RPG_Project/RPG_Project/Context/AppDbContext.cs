@@ -10,5 +10,6 @@ namespace RPG_Project.Context
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Personagem> Personagens { get; set; }
     }
 }
