@@ -92,9 +92,10 @@
               "RelativeDocumentMoniker": "RPG_Project\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Controllers\\LoginController.cs",
               "RelativeToolTip": "RPG_Project\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA1wBsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T01:22:15.465Z"
+              "WhenOpened": "2025-03-17T01:22:15.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -104,7 +105,7 @@
               "RelativeDocumentMoniker": "RPG_Project\\Views\\Login\\Login.cshtml",
               "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Login\\Login.cshtml",
               "RelativeToolTip": "RPG_Project\\Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAowNwAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAowLkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T01:11:55.084Z",
               "EditorCaption": ""
