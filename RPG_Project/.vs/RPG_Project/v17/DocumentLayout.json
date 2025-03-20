@@ -58,8 +58,7 @@
               "RelativeToolTip": "RPG_Project\\Context\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T23:12:28.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T23:12:28.032Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "RPG_Project\\Models\\User.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T01:00:36.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T01:00:36.622Z"
             },
             {
               "$type": "Document",
@@ -94,7 +92,7 @@
               "RelativeDocumentMoniker": "RPG_Project\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Controllers\\LoginController.cs",
               "RelativeToolTip": "RPG_Project\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA1wBsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T01:22:15.465Z",
               "EditorCaption": ""
@@ -107,7 +105,7 @@
               "RelativeDocumentMoniker": "RPG_Project\\Views\\Login\\Login.cshtml",
               "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Login\\Login.cshtml",
               "RelativeToolTip": "RPG_Project\\Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAowNwAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAowLkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T01:11:55.084Z",
               "EditorCaption": ""
@@ -122,8 +120,7 @@
               "RelativeToolTip": "RPG_Project\\Repositories\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T01:01:19.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T01:01:19.517Z"
             },
             {
               "$type": "Document",
@@ -135,8 +132,7 @@
               "RelativeToolTip": "RPG_Project\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T01:01:09.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T01:01:09.721Z"
             },
             {
               "$type": "Document",
