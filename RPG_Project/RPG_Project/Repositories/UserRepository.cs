@@ -1,4 +1,6 @@
-﻿using RPG_Project.Context;
+﻿using Microsoft.AspNetCore.Server.Kestrel.Core;
+using RPG_Project.Context;
+using RPG_Project.Models;
 using RPG_Project.Repositories.Interfaces;
 
 namespace RPG_Project.Repositories
@@ -10,6 +12,19 @@ namespace RPG_Project.Repositories
         public UserRepository(AppDbContext context)
         {
             _context = context;
+        }
+
+        public User GetUsuarioLogado(string nome, string senha)
+        {
+            try
+            {
+                var usuarioLogado = _context.Users.FirstOrDefault(u => u.Usuario == nome && u.Senha == senha);
+                return usuarioLogado;
+            }
+            catch(Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
     }
 }
