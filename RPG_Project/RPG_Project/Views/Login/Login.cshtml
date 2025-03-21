@@ -1,18 +1,13 @@
-﻿@model User
-@{
-    Layout = null;
-}
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    @* BootStrap *@
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
-<style>
-    /* Seus estilos personalizados aqui */
-</style>
-
 <body>
-    <!-- Tela de Login-->
     <div id="login-container">
         <div class="card">
             <p class="singup">Entrar</p>
@@ -28,19 +23,19 @@
         </div>
     </div>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script>
-        let btnLogin = document.getElementById("loginBtn");
-
-        btnLogin.addEventListener('click', EnviaLogin);
+        document.addEventListener('DOMContentLoaded', function() {
+            let btnLogin = document.getElementById("loginBtn");
+            btnLogin.addEventListener('click', EnviaLogin);
+        });
 
         function EnviaLogin() {
             let user = document.getElementById("user").value;
             let password = document.getElementById("password").value;
 
-            // Verifica se os campos estão preenchidos
             if (!user || !password) {
                 Toastify({
                     text: "Por favor, preencha todos os campos.",
@@ -55,7 +50,6 @@
                 return;
             }
 
-            // Envia a requisição AJAX para o servidor
             $.ajax({
                 url: "@Url.Action("EnviaHome", "Login")",
                 type: "GET",
@@ -65,43 +59,47 @@
                 },
                 success: function(response) {
                     if (response.success) {
-                        // Exibe mensagem de sucesso
-                        console.log("Acerto teste")
+                        Toastify({
+                            text: "Usuário logado com sucesso!",
+                            duration: 3000,
+                            close: true,
+                            gravity: "top",
+                            position: "center",
+                            style: {
+                                background: "linear-gradient(to right, #00b09b, #96c93d)",
+                            },
+                        }).showToast();
 
-                        // Redireciona após 1 segundo
                         setTimeout(() => {
                             window.location.href = response.redirectUrl;
                         }, 1000);
                     } else {
-                        // Exibe mensagem de erro
-                        console.log("Erro teste")
+                        Toastify({
+                            text: response.message,
+                            duration: 3000,
+                            close: true,
+                            gravity: "top",
+                            position: "center",
+                            style: {
+                                background: "linear-gradient(to right, #ff5f6d, #ffc371)",
+                            },
+                        }).showToast();
                     }
                 },
                 error: function(erro) {
-                    // Exibe mensagem de erro genérico
-                    console.log("Erro teste")
+                    Toastify({
+                        text: "Erro ao tentar logar: " + (erro.responseJSON?.message || "Erro desconhecido"),
+                        duration: 3000,
+                        close: true,
+                        gravity: "top",
+                        position: "center",
+                        style: {
+                            background: "linear-gradient(to right, #ff5f6d, #ffc371)",
+                        },
+                    }).showToast();
                 }
             });
         }
-
-        // Função para verificar a sessão do usuário
-        function checkSession() {
-            $.ajax({
-                url: "@Url.Action("CheckSession", "Login")",
-                type: "GET",
-                success: function(response) {
-                    if (!response.isLoggedIn) {
-                        // Redireciona para a página de login se o usuário não estiver logado
-                        window.location.href = "@Url.Action("Login", "Login")";
-                    }
-                },
-                error: function(erro) {
-                    console.error("Erro ao verificar sessão: ", erro);
-                }
-            });
-        }
-
-        // Verifica a sessão ao carregar a página (apenas em páginas que requerem autenticação)
-        checkSession();
     </script>
 </body>
+</html>
