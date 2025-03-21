@@ -1,37 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\giovanni\\documents\\www\\projetos\\rpg_project\\rpg_project\\rpg_project\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\views\\login\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\views\\login\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\giovanni\\documents\\www\\projetos\\rpg_project\\rpg_project\\rpg_project\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\giovanni\\documents\\www\\projetos\\rpg_project\\rpg_project\\rpg_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\giovanni\\documents\\www\\projetos\\rpg_project\\rpg_project\\rpg_project\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\giovanni\\documents\\www\\projetos\\rpg_project\\rpg_project\\rpg_project\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\giovanni\\documents\\www\\projetos\\rpg_project\\rpg_project\\rpg_project\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\giovanni\\documents\\www\\projetos\\rpg_project\\rpg_project\\rpg_project\\models\\personagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\models\\personagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\models\\personagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\giovanni\\documents\\www\\projetos\\rpg_project\\rpg_project\\rpg_project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|c:\\users\\igorn\\onedrive\\documentos\\github\\rpg_project\\rpg_project\\rpg_project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3811B8E7-07E0-4AAB-ACAF-29F09EE6B36C}|RPG_Project\\RPG_Project.csproj|solutionrelative:rpg_project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,11 +66,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RPG_Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RPG_Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T23:24:53.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "RPG_Project\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "RPG_Project\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAuwJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T00:21:44.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Login\\Home.cshtml",
+              "RelativeDocumentMoniker": "RPG_Project\\Views\\Login\\Home.cshtml",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Login\\Home.cshtml",
+              "RelativeToolTip": "RPG_Project\\Views\\Login\\Home.cshtml",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAuwLsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T23:24:26.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "RPG_Project\\appsettings.json",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\appsettings.json",
+              "RelativeToolTip": "RPG_Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T23:16:04.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Context\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "RPG_Project\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Context\\AppDbContext.cs",
               "RelativeToolTip": "RPG_Project\\Context\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,11 +129,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Personagem.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Models\\Personagem.cs",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Models\\Personagem.cs",
               "RelativeDocumentMoniker": "RPG_Project\\Models\\Personagem.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Models\\Personagem.cs",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Models\\Personagem.cs",
               "RelativeToolTip": "RPG_Project\\Models\\Personagem.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAA0wCIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,49 +141,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Models\\User.cs",
               "RelativeDocumentMoniker": "RPG_Project\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Models\\User.cs",
               "RelativeToolTip": "RPG_Project\\Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T01:00:36.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "RPG_Project\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "RPG_Project\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T01:22:15.465Z",
+              "WhenOpened": "2025-03-17T01:00:36.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "RPG_Project\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "RPG_Project\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA0wBsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T01:22:15.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Login\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "RPG_Project\\Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Views\\Login\\Login.cshtml",
               "RelativeToolTip": "RPG_Project\\Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAALUAAAAAAAAAAAAowLkAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAANIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T01:11:55.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Repositories\\Interfaces\\IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "RPG_Project\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "RPG_Project\\Repositories\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,11 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Repositories\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "RPG_Project\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "RPG_Project\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,11 +203,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Startup.cs",
+              "DocumentMoniker": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Startup.cs",
               "RelativeDocumentMoniker": "RPG_Project\\Startup.cs",
-              "ToolTip": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\Startup.cs",
+              "ToolTip": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\Startup.cs",
               "RelativeToolTip": "RPG_Project\\Startup.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAkwDUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

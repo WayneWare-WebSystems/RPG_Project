@@ -1,1 +1,187 @@
-﻿<h1>View Home</h1>
+﻿@{
+    Layout = null;
+}
+<partial name="_Header" />
+
+<style>
+
+body{
+   
+}
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    /* background-color: red; */
+}
+container{
+    width: 70%;
+    height:400px;
+    display:flex;
+    gap: 5%;
+    padding:2%;
+    /* background-color: green; */
+}
+#criarPersonagem{
+    width: 30%;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    gap:3%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: green;
+    box-shadow: 0 0 28px black;
+    transition: .3s;
+}
+#criarPersonagem:hover{
+    transform: scale(95%);
+}
+ 
+#botaoCriar{
+    width: 100%;
+    height: 50px;
+    padding:10px;
+    border:none;
+    color: white;
+    background-color: green;
+}
+#pesquisar{
+    width: 80%;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    gap:2%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: var(--hex-1);
+    box-shadow: 0 0 28px black;
+}
+i{
+    font-size: 35px;
+    cursor: pointer;
+}
+#pesquisar > input{
+    background-color: var(--hex-1);
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height:50px;
+    color: white;
+    
+}
+#pesquisar > input:{
+    color: white;
+}
+    /* Estilo do contêiner do toggle */
+    .toggle-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .toggle-label {
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #b8a269;
+    }
+
+    .toggle-switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+    .toggle-input {
+        position: absolute; /* Retira o input do fluxo normal da página */
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        visibility: hidden; /* Torna o input invisível, mas ainda interativo */
+        cursor: pointer; /* Mantém o cursor de clique */
+    }
+
+    .toggle-slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ff4d4d; /* Vermelho quando inativo */
+        transition: 0.4s;
+        border-radius: 34px;
+    }
+
+    .toggle-input:checked + .toggle-slider {
+        background-color: #4caf50; /* Verde quando ativo */
+    }
+
+    .toggle-slider::before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+    }
+
+    .toggle-input:checked + .toggle-slider::before {
+        transform: translateX(26px);
+    }
+</style>
+<body>
+    <header>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <div class="container">
+            <div class="titulo">RPG</div>
+            <div class="container-usuario">
+                @* <div class="box-usuario"></div>
+                <button id="logout">SAIR</button> *@
+                <div class="toggle-container">
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="toggle" class="toggle-input">
+                        <label for="toggle" class="toggle-slider"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <container>
+            <div id="criarPersonagem">
+                <label for="botaoCriar">
+                    <i class="bi bi-person-fill-add" for="botaoCriar"></i>
+                 </label>
+                <button id="botaoCriar">
+                    Criar Personagem
+                </button>
+            </div>
+
+            <div id="pesquisar">
+                <label for="buscar">
+                    <i class="bi bi-search"></i>
+                </label>
+                <input type="type" id="buscar" name="name" placeholder="Buscar" autocomplete="off"/>
+            </div>
+        </container>
+    </main>
+
+    <script>
+        const botaoCriar = document.getElementById("botaoCriar")
+
+        botaoCriar.addEventListener("click", function() {
+            alert("Clicou no botao")      
+        })
+    </script>
+</body>

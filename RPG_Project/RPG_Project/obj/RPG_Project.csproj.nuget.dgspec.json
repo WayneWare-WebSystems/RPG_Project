@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\RPG_Project.csproj": {}
+    "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\RPG_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\RPG_Project.csproj": {
+    "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\RPG_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\RPG_Project.csproj",
+        "projectUniqueName": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\RPG_Project.csproj",
         "projectName": "RPG_Project",
-        "projectPath": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\RPG_Project.csproj",
-        "packagesPath": "C:\\Users\\Giovanni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanni\\Documents\\WWW\\Projetos\\RPG_Project\\RPG_Project\\RPG_Project\\obj\\",
+        "projectPath": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\RPG_Project.csproj",
+        "packagesPath": "C:\\Users\\igorn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igorn\\OneDrive\\Documentos\\GitHub\\RPG_Project\\RPG_Project\\RPG_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Giovanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\igorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
