@@ -14,6 +14,19 @@ namespace RPG_Project.Repositories
             _context = context;
         }
 
+        public User GetUsuarioById(Guid value)
+        {
+            try
+            {
+                var usuario = _context.Users.FirstOrDefault(u => u.Id_Usuario == value);
+                return usuario;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
         public User GetUsuarioLogado(string nome, string senha)
         {
             try
@@ -25,6 +38,12 @@ namespace RPG_Project.Repositories
             {
                 throw new Exception(e.Message);
             }
+        }
+
+        public IEnumerable<Personagem> GetPersonagemById(Guid userId)
+        {
+            var Personagens = _context.Personagens.Where(p => p.UserId == userId);
+            return Personagens;
         }
     }
 }
