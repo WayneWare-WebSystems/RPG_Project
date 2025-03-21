@@ -45,5 +45,9 @@ namespace RPG_Project.Repositories
             var Personagens = _context.Personagens.Where(p => p.UserId == userId);
             return Personagens;
         }
+        Personagem IUserRepository.GetPersonagemById(Guid userId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

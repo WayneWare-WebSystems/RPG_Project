@@ -4,7 +4,7 @@ namespace RPG_Project.Repositories.Interfaces
 {
     public interface IUserRepository
     {
-        string? GetUsuarioById(Guid value);
+        public User GetUsuarioById(Guid value);
         public User GetUsuarioLogado(string nome, string senha);
         public Personagem GetPersonagemById(Guid userId);
     }
