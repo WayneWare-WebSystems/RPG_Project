@@ -40,9 +40,10 @@ namespace RPG_Project.Repositories
             }
         }
 
-        public Personagem GetPersonagemById(Guid value)
+        public IEnumerable<Personagem> GetPersonagemById(Guid userId)
         {
-            return null;
+            var Personagens = _context.Personagens.Where(p => p.UserId == userId);
+            return Personagens;
         }
     }
 }

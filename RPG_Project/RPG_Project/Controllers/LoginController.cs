@@ -23,15 +23,15 @@ namespace RPG_Project.Controllers
         [HttpGet]
         public IActionResult EnviaHome(string nome, string senha)
         {
-            var usuario = _userRepository.GetUsuarioLogado(nome, senha);
-
-            if (usuario == null)
-            {
-                return Json(new { success = false, message = "Usuário não encontrado" });
-            }
-
             try
             {
+                var usuario = _userRepository.GetUsuarioLogado(nome, senha);
+
+                if (usuario == null)
+                {
+                    return Json(new { success = false, message = "Usuário não encontrado" });
+                }
+
                 // Armazena o ID do usuário na sessão
                 HttpContext.Session.SetString("UserId", usuario.Id_Usuario.ToString());
 
