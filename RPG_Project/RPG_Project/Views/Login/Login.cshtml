@@ -8,168 +8,11 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 <style>
-    /* Fontes */
-    @@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-    /* Variaveis */
-    :root {
-        --cor-fundo-principal: #1A1A1A;
-        --cor-fundo-header: black;
-        --cor-texto-padrao: white;
-        --cor-texto-input: #fff;
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        color: white;
-        box-sizing: border-box;
-        font-family: Open Sans, serif;
-    }
-
-    body {
-        background-color: #1A1A1A;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* Id's */
-    #login-container {
-        height: 350px;
-        width: 350px;
-        background-color: #1A1A1A;
-        border-radius: 35px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 35px;
-        border: solid 3px var(--cor-texto-padrao);
-        box-shadow: 0px 0px 30px 4px rgba(9, 207, 199, 0.3);
-    }
-
-    #sign-up {
-        color: var(--cor-texto-padrao);
-        letter-spacing: 2px;
-        font-weight: bold;
-        margin-top: 1.5em;
-        text-transform: uppercase;
-    }
-
-    #login-container .card {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
-        gap: 35px;
-        background-color: transparent;
-        border-radius: 30px;
-    }
-
-        #login-container .card .singup {
-            color: var(--cor-texto-padrao);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            display: block;
-            font-weight: bold;
-            font-size: x-large;
-            margin-top: 1.5em;
-        }
-
-        #login-container .card .inputBox {
-            position: relative;
-            width: 250px;
-        }
-
-            #login-container .card .inputBox input {
-                width: 100%;
-                padding: 10px;
-                outline: none;
-                border: solid var(--cor-texto-padrao) 3px;
-                font-size: 1em;
-                background: transparent;
-                transition: 0.1s;
-                border-radius: 8px;
-                color: var(--cor-texto-input);
-                letter-spacing: 3px;
-            }
-
-            #login-container .card .inputBox span {
-                margin-top: 5px;
-                position: absolute;
-                left: 0;
-                transform: translateY(-4px);
-                margin-left: 10px;
-                padding: 10px;
-                pointer-events: none;
-                font-size: 12px;
-                color: var(--cor-texto-padrao);
-                text-transform: uppercase;
-                transition: 0.5s;
-                letter-spacing: 3px;
-                border-radius: 8px;
-            }
-
-            #login-container .card .inputBox input:valid ~ span,
-            #login-container .card .inputBox input:focus ~ span {
-                transform: translateX(0px) translateY(-20px);
-                font-size: 0.8em;
-                padding: 5px 10px;
-                letter-spacing: 0.2em;
-                color: var(--cor-texto-padrao);
-                position: absolute;
-                background-color: #1A1A1A;
-            }
-
-        #login-container .card .enter {
-            margin-bottom: 1em;
-            width: 40%;
-            height: 300px;
-            border-radius: 5px;
-            border: 2px solid var(--hex-2);
-            cursor: pointer;
-            background-color: transparent;
-            transition: 0.5s;
-            text-transform: uppercase;
-            font-size: 1.1em;
-            letter-spacing: 1.2px;
-            color: var(--cor-texto-padrao);
-        }
-
-            #login-container .card .enter:hover {
-                background-color: var(--cor-texto-padrao);
-                color: #000;
-            }
-    /* Modal */
-
-    #exampleModal {
-        background-color: #1a1a1a9e; /* Cor para deixar o fundo escuro no popup*/
-    }
-
-    .modal-dialog {
-        text-decoration: none;
-        color: var(--cor-texto-padrao);
-    }
-
-    .modal-header {
-        width: 100%;
-        height: 8%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        border: none;
-        border-radius: 15px;
-    }
+    /* Seus estilos personalizados aqui */
 </style>
 
 <body>
-    <!-- Tela dee Login-->
+    <!-- Tela de Login-->
     <div id="login-container">
         <div class="card">
             <p class="singup">Entrar</p>
@@ -184,32 +27,108 @@
             <button type="submit" class="enter" id="loginBtn">Enter</button>
         </div>
     </div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script>
-        let btnLogin = document.getElementById("loginBtn")
+        let btnLogin = document.getElementById("loginBtn");
 
-        btnLogin.addEventListener('click', EnviaLogin)
+        btnLogin.addEventListener('click', EnviaLogin);
 
-        function EnviaLogin(){
-            let user = document.getElementById("user").value
-            let password = document.getElementById("password").value
+        function EnviaLogin() {
+            let user = document.getElementById("user").value;
+            let password = document.getElementById("password").value;
 
+            // Verifica se os campos estão preenchidos
+            if (!user || !password) {
+                Toastify({
+                    text: "Por favor, preencha todos os campos.",
+                    duration: 3000,
+                    close: true,
+                    gravity: "top",
+                    position: "center",
+                    style: {
+                        background: "linear-gradient(to right, #ff5f6d, #ffc371)",
+                    },
+                }).showToast();
+                return;
+            }
+
+            // Envia a requisição AJAX para o servidor
             $.ajax({
                 url: "@Url.Action("EnviaHome", "Login")",
                 type: "GET",
-                data:{
+                data: {
                     nome: user,
                     senha: password
                 },
-                success: function(response){
-                    alert("Usuario logado com sucesso")
-                    window.location.href = response
+                success: function(response) {
+                    if (response.success) {
+                        // Exibe mensagem de sucesso
+                        Toastify({
+                            text: "Usuário logado com sucesso!",
+                            duration: 3000,
+                            close: true,
+                            gravity: "top",
+                            position: "center",
+                            style: {
+                                background: "linear-gradient(to right, #00b09b, #96c93d)",
+                            },
+                        }).showToast();
+
+                        // Redireciona após 1 segundo
+                        setTimeout(() => {
+                            window.location.href = response.redirectUrl;
+                        }, 1000);
+                    } else {
+                        // Exibe mensagem de erro
+                        Toastify({
+                            text: response.message,
+                            duration: 3000,
+                            close: true,
+                            gravity: "top",
+                            position: "center",
+                            style: {
+                                background: "linear-gradient(to right, #ff5f6d, #ffc371)",
+                            },
+                        }).showToast();
+                    }
                 },
-                error: function(erro){
-                    alert("Usuario nao encontrado: ")
+                error: function(erro) {
+                    // Exibe mensagem de erro genérico
+                    Toastify({
+                        text: "Erro ao tentar logar: " + (erro.responseJSON?.message || "Erro desconhecido"),
+                        duration: 3000,
+                        close: true,
+                        gravity: "top",
+                        position: "center",
+                        style: {
+                            background: "linear-gradient(to right, #ff5f6d, #ffc371)",
+                        },
+                    }).showToast();
                 }
             });
         }
+
+        // Função para verificar a sessão do usuário
+        function checkSession() {
+            $.ajax({
+                url: "@Url.Action("CheckSession", "Login")",
+                type: "GET",
+                success: function(response) {
+                    if (!response.isLoggedIn) {
+                        // Redireciona para a página de login se o usuário não estiver logado
+                        window.location.href = "@Url.Action("Login", "Login")";
+                    }
+                },
+                error: function(erro) {
+                    console.error("Erro ao verificar sessão: ", erro);
+                }
+            });
+        }
+
+        // Verifica a sessão ao carregar a página (apenas em páginas que requerem autenticação)
+        checkSession();
     </script>
 </body>
